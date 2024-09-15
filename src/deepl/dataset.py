@@ -10,8 +10,6 @@ from ..config import CALCULATE_CONFIG
 
 ENV_CONFIG = CALCULATE_CONFIG()
 
-print("hello world")
-
 class NodeDataset(Dataset):
     def __init__(self, data_path:str=None, device=None):
         """Initializes an instance of the NodeDataset class.
